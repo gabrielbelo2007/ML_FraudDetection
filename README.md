@@ -55,9 +55,9 @@ pip install -r requirements.txt
 
 4. Dataset:
 
-    Baixe o dataset diretamente do Kaggle: [Credit Card Fraud Detection]((https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud)).
+Baixe o dataset diretamente do Kaggle: [Credit Card Fraud Detection]((https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud)).
 
-    **Importante**: Coloque o arquivo .csv baixado diretamente no diretório raiz do projeto. Isso garante que os notebooks localizem os dados sem a necessidade de alterar os caminhos de leitura.
+> **Importante**: Coloque o arquivo .csv baixado diretamente no diretório raiz do projeto.
 
 ---
 
@@ -65,9 +65,9 @@ pip install -r requirements.txt
 
 O modelo selecionado para este projeto foi o XGB_RUS, cujos resultados obtidos no treinamento foram:
 
-- ROC-AUC: 0.9794
-- Precisão: 0.04
-- Recall: 0.90
+- *ROC-AUC*: 0.9794
+- *Precisão*: 0.04
+- *Recall*: 0.90
 
 Os melhores hiperparâmetros identificados via busca foram: `learning_rate: 0.1`, `max_depth: 3`, `n_estimators: 100` e `subsample: 0.8`.
 
