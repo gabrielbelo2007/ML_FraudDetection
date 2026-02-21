@@ -1,2 +1,2 @@
 timestamp,model_name,roc_auc,precision,recall,best_params
-20-20:35:58,XGB_RUS,0.9793526745341166,0.9981547602159888,0.9631328315302069,"{'classifier__learning_rate': 0.1, 'classifier__max_depth': 3, 'classifier__n_estimators': 100, 'classifier__subsample': 0.8}"
+21-00:15:50,XGB_RUS,0.9793526745341166,0.04073436603557085,0.8987341772151899,"{'classifier__learning_rate': 0.1, 'classifier__max_depth': 3, 'classifier__n_estimators': 100, 'classifier__subsample': 0.8}"
