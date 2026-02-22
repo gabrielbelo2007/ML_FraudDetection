@@ -28,7 +28,6 @@ O repositório está organizado da seguinte forma:
 ### 🛠️ Pré-requisitos
     Para garantir o funcionamento correto, utilize a versão do Python 3.12.13.
 
-
 ---
 
 ### 🔧 Instalação e Configuração
@@ -57,7 +56,15 @@ pip install -r requirements.txt
 
 Baixe o dataset diretamente do Kaggle: [Credit Card Fraud Detection]((https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud)).
 
-> **Importante**: Coloque o arquivo .csv baixado diretamente no diretório raiz do projeto.
+> **Importante**: Coloque o arquivos `train.csv`, `test.csv` baixado diretamente no diretório raiz do projeto.
+
+5. Utilização:
+
+- Execute as células presentes no [`EDA.ipynb`](EDA.ipynb), para verificar as discussões comentadas.
+
+- Caso deseje, faça a execução dos treinamentos dos modelos no [`Preprocess_Training.ipynb`](Preprocess_Training.ipynb), sinta-se livre para experimentar as células comentas e analisar os diferentes resultaddos.
+
+- Por fim, mesmo que não tenha executado o notebook de treinamento, o melhor modelo já está salvo na pasta *Model*, e no [`Inference.ipynb`](Inference.ipynb) é possível executar todas as células para verificar as análises das métricas e gerar o `submissao_credit_fraud.csv`.
 
 ---
 
